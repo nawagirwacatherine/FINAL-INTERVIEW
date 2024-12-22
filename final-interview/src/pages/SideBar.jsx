@@ -1,10 +1,10 @@
 
-function SideBar (prop) {
+function SideBar () {
 
   return (
  <div>
-  <h1>{prop.name}</h1>
-  <p>{prop.description}</p>
+  <h1><span>CRM</span> ADMIN</h1>
+
  </div>
   )
 }
