@@ -2,3 +2,47 @@
   margin: 0;
   padding: 0;
 }
+
+.app {
+  padding: 5px;
+  height: 100%;
+  display: flex;
+}
+
+.admin-icon {
+  
+   border: 0 solid green;
+   height: 850px;
+   width: 1000px; 
+font-size: smaller;
+  background-color: rgb(168, 179, 197);
+}
+
+.side-bar {
+  background-color: black;
+  color: azure;
+  height: 800px;
+  width: 200px;
+  align-self: flex-start;
+  padding: 15px;
+ font-size: smaller;
+
+}
+
+.icon {
+  background-color: rgb(24, 24, 24);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+
+ 
+
+}
+
+.admin-bar {
+  padding: 10px;
+  align-items: center;
+  background-color: rgb(223, 210, 210);
+  
+}

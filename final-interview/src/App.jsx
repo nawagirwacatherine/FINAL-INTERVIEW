@@ -4,7 +4,7 @@ import Admin from "./pages/Admin.jsx"
 function App () {
 
   return (
- <div>
+ <div className="app">
   < Admin />
  </div>
   )
