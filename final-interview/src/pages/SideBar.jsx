@@ -2,7 +2,7 @@
 function SideBar () {
 
   return (
- <div>
+ <div className="side-bar">
   <h1><span>CRM</span> ADMIN</h1>
 
  </div>

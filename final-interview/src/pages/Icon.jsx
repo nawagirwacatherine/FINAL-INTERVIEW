@@ -1,7 +1,7 @@
 function Icon () {
 
     return (
-   <div>
+   <div className="icon">
     
    </div>
     )

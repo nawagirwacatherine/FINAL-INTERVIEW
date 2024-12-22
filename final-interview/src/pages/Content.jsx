@@ -1,7 +1,7 @@
 function Content () {
 
     return (
-   <div>
+   <div className="content">
     
    </div>
     )

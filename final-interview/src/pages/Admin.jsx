@@ -6,7 +6,7 @@ import Icon from "./Icon.jsx"
 function Admin () {
 
   return (
- <div>
+ <div className="admin">
      < SideBar />
      < Icon />
   < AdminBar />
