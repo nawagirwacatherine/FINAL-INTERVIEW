@@ -1,10 +1,10 @@
 
-function AdminBar (prop) {
+function AdminBar () {
 
     return (
    <div>
-    <h1>{prop.name}</h1>
-    <p>{prop.description}</p>
+    <h1>CRM Admin Dashboard</h1>
+    <p>very detailed & featured admin</p>
    </div>
 
     )
