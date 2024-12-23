@@ -3,9 +3,12 @@ import Events from "./Events.jsx"
 function Content () {
 
     return (
-   <div className="content">
     
+   <div className="content">
+     < Clients/>
+     < Events/>
    </div>
+  
     )
   }
   
