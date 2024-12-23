@@ -46,3 +46,31 @@ font-size: smaller;
   background-color: rgb(223, 210, 210);
   
 }
+
+.content {
+  
+  color: azure;
+  padding: 15px;
+}
+
+.client1{
+  display: flex;
+  background-color: rgb(44, 159, 149);
+  font-size: x-small;
+
+  
+
+}
+.event2 {
+  display: flex;
+  background-color: rgb(102, 136, 163);
+
+}
+
+.event3{
+  display: flex;
+  background-color: rgb(150, 190, 223);
+  height: 200px;
+
+}
+
