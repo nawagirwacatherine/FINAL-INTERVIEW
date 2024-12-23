@@ -1,3 +1,5 @@
+import Clients from "./Clients.jsx"
+import Events from "./Events.jsx"
 function Content () {
 
     return (
