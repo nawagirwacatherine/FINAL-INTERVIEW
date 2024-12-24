@@ -9,18 +9,24 @@ function Content () {
     <div className="client1">
      <Clients name="Active Client" />
      <Clients name="Active Admin" />
-     <Events  name="Upcoming Events"/>
-     <Events  name="Marketing policy "/>
-     
+     <Clients name="Total expenses"/>
+     <Clients name="Running Projects" />
      </div>
   <div className="event1">
   <div className="event2">
-  <Clients name="Total expenses"/>
-  <Clients name="Running Projects" />
-  <Events  name="Running Projects"/>
-  <Events  name="Database configuration"/>
+    <div className="up-coming">
+     <Events  name="Upcoming Events"/>
+     </div>
+     <Events  name="Marketing policy "/>
+    
      </div>
      <div  className="event3">
+     <div className="up-coming">
+     <Events  name="Running Projects"/>
+     </div>
+     <div>
+     <Events  name="Database configuration"/>
+     </div>
      </div>
      </div>
    </div>
