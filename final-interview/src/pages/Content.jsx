@@ -1,5 +1,6 @@
 import Clients from "./Clients.jsx"
 import Events from "./Events.jsx"
+import  MarketingPolicy from "./MarketingPolicy.jsx"
 
 import { FiUserPlus } from "react-icons/fi";
 
@@ -30,7 +31,7 @@ function Content () {
         </div>
 
         <div className="last-content">
-         <Events  name="Marketing policy "/>
+         <MarketingPolicy />
        </div>
     
      </div>
