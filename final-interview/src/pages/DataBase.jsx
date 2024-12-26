@@ -6,12 +6,13 @@ function DataBase () {
 
  return(
       <>
-      <div style={{padding: "5px"}}>
+      <div style={{padding: "3px" ,  border:"0",}}>
        <div  style={{display: "flex"}}>
       <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Database configuration </span></h1>
 
       <button style={{ 
-                width: "55px",
+      
+                width: "60px",
                  color: "white",
                   backgroundColor:"red",
                   borderRadius: "2px",
@@ -21,12 +22,12 @@ function DataBase () {
         < RatingBar />
 
         <div  style={{display: "flex"}}>
-      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Database configuration </span></h1>
+      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Design tool</span></h1>
 
       <button style={{ 
-                width: "70px",
+                width: "85px",
                  color: "white",
-                  backgroundColor:"green",
+                  backgroundColor:"orange",
                   borderRadius: "2px",
                  
                    }}>Progressing</button>
@@ -36,24 +37,10 @@ function DataBase () {
 
                    
         <div  style={{display: "flex"}}>
-      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Database configuration </span></h1>
+      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Internet configuration </span></h1>
 
       <button style={{ 
-                width: "70px",
-                 color: "white",
-                  backgroundColor:"green",
-                  borderRadius: "2px",
-                 
-                   }}>Progressing</button>
-                   </div>
-                   < RatingBar />
-
-                   
-        <div  style={{display: "flex"}}>
-      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Database configuration </span></h1>
-
-      <button style={{ 
-                width: "70px",
+                width: "85px",
                  color: "white",
                   backgroundColor:"green",
                   borderRadius: "2px",
@@ -64,10 +51,24 @@ function DataBase () {
 
                    
         <div  style={{display: "flex"}}>
-      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Database configuration </span></h1>
+      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Banner completation</span></h1>
 
       <button style={{ 
-                width: "55px",
+                width: "85px",
+                 color: "white",
+                  backgroundColor:"red",
+                  borderRadius: "2px",
+                 
+                   }}>Progressing</button>
+                   </div>
+                   < RatingBar />
+
+                   
+        <div  style={{display: "flex"}}>
+      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> IT solution </span></h1>
+
+      <button style={{ 
+                width: "60px",
                  color: "white",
                   backgroundColor:"green",
                   borderRadius: "2px",
