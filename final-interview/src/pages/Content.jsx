@@ -1,4 +1,5 @@
 import Clients from "./Clients.jsx"
+import DataBase from "./DataBase.jsx"
 import Events from "./Events.jsx"
 import  MarketingPolicy from "./MarketingPolicy.jsx"
 
@@ -41,7 +42,7 @@ function Content () {
      </div>
        <div>
         <div className="last-content">
-         <Events  name="Database configuration"/>
+         <DataBase  name="Database configuration"/>
         </div>
       </div>
     </div>
