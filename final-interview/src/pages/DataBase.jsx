@@ -24,7 +24,7 @@ function DataBase () {
       <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Database configuration </span></h1>
 
       <button style={{ 
-                width: "55px",
+                width: "70px",
                  color: "white",
                   backgroundColor:"green",
                   borderRadius: "2px",
@@ -39,7 +39,7 @@ function DataBase () {
       <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Database configuration </span></h1>
 
       <button style={{ 
-                width: "55px",
+                width: "70px",
                  color: "white",
                   backgroundColor:"green",
                   borderRadius: "2px",
@@ -53,7 +53,7 @@ function DataBase () {
       <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Database configuration </span></h1>
 
       <button style={{ 
-                width: "55px",
+                width: "70px",
                  color: "white",
                   backgroundColor:"green",
                   borderRadius: "2px",
