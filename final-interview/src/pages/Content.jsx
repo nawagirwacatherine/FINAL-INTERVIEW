@@ -42,7 +42,7 @@ function Content () {
      </div>
        <div>
         <div className="last-content">
-         <DataBase  name="Database configuration"/>
+         <DataBase />
         </div>
       </div>
     </div>
