@@ -54,9 +54,10 @@ function DataBase () {
       <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Banner completation</span></h1>
 
       <button style={{ 
+                
                 width: "85px",
                  color: "white",
-                  backgroundColor:"red",
+                  backgroundColor:"light-blue",
                   borderRadius: "2px",
                  
                    }}>Progressing</button>
