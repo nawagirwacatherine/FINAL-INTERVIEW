@@ -1,6 +1,6 @@
 
 import { LuCircleDot } from "react-icons/lu";
-import RatingBar from "./RatingBar";
+// import RatingBar from "./RatingBar";
 
 function DataBase () {
 
@@ -10,7 +10,7 @@ function DataBase () {
       <>
       <div style={{padding: "3px" ,  border:"0",}}>
        <div  style={{display: "flex"}}>
-      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Database configuration </span></h1>
+      <h1> <input type="radio" /><span> Database configuration </span></h1>
 
       <button style={{ 
       
@@ -21,7 +21,8 @@ function DataBase () {
                  
                    }}>failed</button>
                    </div>
-        < RatingBar />
+                   <input type="range" />
+   
 
         <div  style={{display: "flex"}}>
       <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Design tool</span></h1>
@@ -34,7 +35,8 @@ function DataBase () {
                  
                    }}>Progressing</button>
                    </div>
-                   < RatingBar />
+                   <input type="range" />
+        
 
 
                    
@@ -49,7 +51,8 @@ function DataBase () {
                  
                    }}>Progressing</button>
                    </div>
-                   < RatingBar />
+                   <input type="range" />
+            
 
                    
         <div  style={{display: "flex"}}>
@@ -64,7 +67,8 @@ function DataBase () {
                  
                    }}>Progressing</button>
                    </div>
-                   < RatingBar />
+                   <input type="range" />
+                   {/* < RatingBar /> */}
 
                    
         <div  style={{display: "flex"}}>
@@ -78,7 +82,9 @@ function DataBase () {
                  
                    }}>Success</button>
                    </div>
-                   < RatingBar />
+
+                   <input type="range" />
+                   {/* < RatingBar /> */}
 
         </div>
       </>
