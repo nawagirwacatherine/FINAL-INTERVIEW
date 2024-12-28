@@ -1,93 +1,134 @@
 
-import { LuCircleDot } from "react-icons/lu";
-// import RatingBar from "./RatingBar";
-
-function DataBase () {
+// function DataBase () {
 
   
 
- return(
-      <>
-      <div style={{padding: "3px" ,  border:"0",}}>
-       <div  style={{display: "flex"}}>
-      <h1> <input type="radio" /><span> Database configuration </span></h1>
+//  return(
+//       <>
+//       <div className="container">
+//        <div className="skills" >
+//       <h1> <input type="radio" /><span> Database configuration </span></h1>
+//       <div className="configuration"> <span>86%</span></div>
 
-      <button style={{ 
+//       <button style={{ 
       
-                width: "60px",
-                 color: "white",
-                  backgroundColor:"red",
-                  borderRadius: "2px",
+//                 width: "60px",
+//                  color: "white",
+//                   backgroundColor:"red",
+//                   borderRadius: "2px",
                  
-                   }}>failed</button>
-                   </div>
-                   <input type="range" />
+//                    }}>failed</button>
+//                    </div>
+//                    <div className="configuration"> <span>86%</span></div>
    
 
-        <div  style={{display: "flex"}}>
-      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Design tool</span></h1>
+//         <div  style={{display: "flex"}}>
 
-      <button style={{ 
-                width: "85px",
-                 color: "white",
-                  backgroundColor:"orange",
-                  borderRadius: "2px",
+//       <button style={{ 
+//                 width: "85px",
+//                  color: "white",
+//                   backgroundColor:"orange",
+//                   borderRadius: "2px",
                  
-                   }}>Progressing</button>
-                   </div>
-                   <input type="range" />
+//                    }}>Progressing</button>
+//                    </div>
+//                    <input type="range" />
         
 
 
                    
-        <div  style={{display: "flex"}}>
-      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Internet configuration </span></h1>
+//         <div  style={{display: "flex"}}>
+//       <h1> <input type="radio" /> <span> Internet configuration </span></h1>
 
-      <button style={{ 
-                width: "85px",
-                 color: "white",
-                  backgroundColor:"green",
-                  borderRadius: "2px",
+//       <button style={{ 
+//                 width: "85px",
+//                  color: "white",
+//                   backgroundColor:"green",
+//                   borderRadius: "2px",
                  
-                   }}>Progressing</button>
-                   </div>
-                   <input type="range" />
+//                    }}>Progressing</button>
+//                    </div>
+//                    <input type="range" />
             
 
                    
-        <div  style={{display: "flex"}}>
-      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> Banner completation</span></h1>
+//         <div  style={{display: "flex"}}>
+//       <h1><input type="radio" /> <span> Banner completation</span></h1>
 
-      <button style={{ 
+//       <button style={{ 
                 
-                width: "85px",
-                 color: "white",
-                  backgroundColor:"light-blue",
-                  borderRadius: "2px",
+//                 width: "85px",
+//                  color: "white",
+//                   backgroundColor:"light-blue",
+//                   borderRadius: "2px",
                  
-                   }}>Progressing</button>
-                   </div>
-                   <input type="range" />
-                   {/* < RatingBar /> */}
+//                    }}>Progressing</button>
+//                    </div>
+//                    <input type="range" />
+                 
 
                    
-        <div  style={{display: "flex"}}>
-      <h1> <span style={{Color: "green"}}>< LuCircleDot /></span> <span> IT solution </span></h1>
+//         <div  style={{display: "flex"}}>
+//       <h1> <input type="radio" /><span> IT solution </span></h1>
 
-      <button style={{ 
-                width: "60px",
-                 color: "white",
-                  backgroundColor:"green",
-                  borderRadius: "2px",
+//       <button style={{ 
+//                 width: "60px",
+//                  color: "white",
+//                   backgroundColor:"green",
+//                   borderRadius: "2px",
                  
-                   }}>Success</button>
-                   </div>
+//                    }}>Success</button>
+//                    </div>
 
-                   <input type="range" />
-                   {/* < RatingBar /> */}
+//                    <input type="range" />
+                 
 
-        </div>
-      </>
+//         </div>
+//       </>
+
+//  )
+
+// }
+
+// export default DataBase;
+
+function DataBase () {
+
+ return (
+ <>
+ <div className="container">
+ <div className="skills">
+     <h3> <input type="radio" /><span> Database configuration </span></h3>
+  <div className="progress-bar" >
+     <div className="configuration"> <span></span></div>
+     </div>
+
+
+ <h3> <input type="radio" /><span> Design tool </span></h3>
+  <div className="progress-bar" >
+     <div className="tool"> <span></span></div>
+     </div>
+
+     <h3> <input type="radio" /><span> Internet configuration</span></h3>
+  <div className="progress-bar" >
+     <div className="internet"> <span></span></div>
+     </div>
+
+     <h3> <input type="radio" /><span> Banner Completation </span></h3>
+  <div className="progress-bar" >
+     <div className="banner"> <span></span></div>
+     </div>
+
+     <h3> <input type="radio" /><span> IT Solution </span></h3>
+  <div className="progress-bar" >
+     <div className="solution"> <span></span></div>
+     </div>
+
+     </div>
+
+ </div>
+ 
+ </>
 
  )
 
