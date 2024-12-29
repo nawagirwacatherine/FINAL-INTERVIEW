@@ -5,14 +5,11 @@ function DataBase () {
  <>
  <div className="container">
  <div className="skills">
-     <h3> <input type="radio" /><span> Database configuration </span>
+     <h3> <span><input type="radio" /> Database configuration </span>
      <span>
      <button style={{ 
-        position:"absolute",
-        top:"66%",
-        right:"-445px",
-        transform:"translateY(-50%)",
-
+      
+                     border:"none",
                       width: "60px",
                        color: "white",
                         backgroundColor:"red",
@@ -25,9 +22,9 @@ function DataBase () {
      </div>
 
 
- <h3> <input type="radio" /><span style={{  }} > Design tool </span><span>
+ <h3> <span ><input type="radio" /> Design tool </span><span>
  <button style={{ 
-  
+                border:"none",
                 width: "85px",
                  color: "white",
                   backgroundColor:"orange",
@@ -40,13 +37,13 @@ function DataBase () {
      <div className="tool"> <span></span></div>
      </div>
 
-     <h3> <input type="radio" /><span> Internet configuration</span> 
+     <h3> <span> <input type="radio" /> Internet configuration</span> 
      
      <span>
 
      <span>
      <button style={{ 
-      
+                     border:"none",
                       width: "80px",
                        color: "white",
                         backgroundColor:"green",
@@ -59,10 +56,10 @@ function DataBase () {
      <div className="internet"> <span></span></div>
      </div>
 
-     <h3> <input type="radio" /><span> Banner Completation </span>
+     <h3> <span><input type="radio" /> Banner Completation </span>
      <span>
      <button style={{ 
-      
+                     border:"none",
                       width: "80px",
                        color: "white",
                         backgroundColor:"blue",
@@ -75,11 +72,11 @@ function DataBase () {
      <div className="banner"> <span></span></div>
      </div>
 
-     <h3> <input type="radio" /><span> IT Solution </span>
+     <h3> <span> <input type="radio" /> IT Solution </span>
      
      <span>
      <button style={{ 
-      
+                      border:"none",
                       width: "70px",
                        color: "white",
                         backgroundColor:"green",

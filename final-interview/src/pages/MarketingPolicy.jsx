@@ -10,6 +10,7 @@ function MarketingPolicy  () {
             <p>Green,Road-Dhaka,Bangladesh</p>
             </span>
             <button style={{ 
+                border:"none",
                 position:"absolute",
                 top:"50%",
                 right:"5%",
@@ -32,6 +33,7 @@ function MarketingPolicy  () {
             <p>kalkata india</p>
             </span>
             <button style={{ 
+                border:"none",
                 position:"absolute",
                 top:"50%",
                 right:"5%",
@@ -54,6 +56,7 @@ function MarketingPolicy  () {
             <p>Madrid-Spain</p>
             </span>
             <button style={{ 
+                border:"none",
                 position:"absolute",
                 top:"50%",
                 right:"5%",
@@ -76,6 +79,7 @@ function MarketingPolicy  () {
             <p>South Australia-Australia</p>
             </span>
             <button style={{ 
+                border:"none",
                 position:"absolute",
                 top:"50%",
                 right:"5%",
