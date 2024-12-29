@@ -123,6 +123,8 @@ align-self:center ;
 }
 
 .up-coming {
+
+ 
   background-color: rgb(134, 172, 203);
 }
 .last-content {
@@ -151,6 +153,11 @@ align-content: center;
   color: rgb(247, 246, 246);
   background-color: rgb(75, 144, 144);
   font-size: xx-small;
+}
+h1{
+  
+  display: flex;
+  justify-content: space-between;
 }
 
 h3 {

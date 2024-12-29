@@ -20,7 +20,7 @@ function Content () {
     
    <div className="content">
     <div className="client1">
-    <Clients name="Active Client" icon={< FiUserPlus/>} icon1={< IoTriangleOutline/>}  />
+    <Clients name="Active Client" icon={< FiUserPlus/>} description="4"icon1={< IoTriangleOutline/>}  />
      <Clients name="Active Admin" icon={< GiLabradorHead />} icon1={< IoTriangleOutline/>}   />
      <Clients name="Total expenses" icon={< FaRegMoneyBill1 />} icon1={< IoTriangleOutline/>}  />
      <Clients name="Running Projects" icon={< AiOutlineFile/>} icon1={< IoTriangleOutline/>}   />
