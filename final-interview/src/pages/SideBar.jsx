@@ -16,7 +16,7 @@ function SideBar () {
   return (
     
  <div className="side-bar">
-  <h1><BsStopwatch /> <span>CRM</span> ADMIN</h1>
+  <h1><span className="side-span"><BsStopwatch />CRM</span>ADMIN</h1>
   <div className="dashboard1">
         <ul className='dash-icon'>
             <li><span className="span1"> <BsStopwatch /></span><span className="span2">Dashboard</span></li>
