@@ -84,7 +84,7 @@ function MarketingPolicy  () {
                  color: "white",
                   backgroundColor:"green",
                   borderRadius: "2px",
-                  margin:"0",
+            
                    }}>Mobile</button>
          <hr style={{ border: "1px solid grey" , width: "95%", margin: "1px", color: "white",borderRadius: "2px"}}/>
          </section>
