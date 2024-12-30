@@ -86,9 +86,10 @@ text-align:right;
 }
 
 .admin-bar {
-  padding: 5px;
-  align-items: center;
-  background-color: rgb(223, 210, 210);
+display: flex;
+gap: 10px;
+padding: 5px;
+background-color: azure;
  
 }
 
