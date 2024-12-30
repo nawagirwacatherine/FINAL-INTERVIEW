@@ -142,8 +142,10 @@ align-self:center ;
 
 
 .upcoming-icon {
+  display: flex;
+
  padding: 15px;
-gap: 20px;
+gap: 10px;
 
 }
 .event2 {
