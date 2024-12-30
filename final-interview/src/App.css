@@ -56,13 +56,6 @@ margin-left: auto;
 text-align:right;
  }
 
-/* .span5 {
-  width: 20px;
-margin-left: -10px;
-  color: rgb(12, 149, 85);
-  } */
-
-
 .span {
   color: rgb(24, 135, 128);
 }
@@ -77,6 +70,19 @@ margin-left: -10px;
 
  
 
+}
+
+.icon1 {
+  display: flex;
+
+  padding: 10px;
+ gap: 10px;
+}
+
+.icon2 {
+  display: flex;
+  padding: 10px;
+ gap: 10px;
 }
 
 .admin-bar {
