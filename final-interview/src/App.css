@@ -38,19 +38,29 @@ font-size: smaller;
  .dash-icon{
   list-style: none;
   flex-direction: row;
-  padding: 0;
-  
-  
- 
+  align-items: center;
+  justify-content:space-between ;
 font-size: smaller;
 
  }
 
-.span5 {
+ .dash-icon li {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 10px 0;
+ }
+
+ .span3{
+margin-left: auto;
+text-align:right;
+ }
+
+/* .span5 {
   width: 20px;
 margin-left: -10px;
   color: rgb(12, 149, 85);
-  }
+  } */
 
 
 .span {
@@ -70,16 +80,16 @@ margin-left: -10px;
 }
 
 .admin-bar {
-  padding: 10px;
+  padding: 5px;
   align-items: center;
   background-color: rgb(223, 210, 210);
-  border-bottom: 4 solid black;
+ 
 }
 
 .content {
   
   color: azure;
-  padding: 20px;
+  padding: 5px;
 }
 
 .clients {
@@ -110,10 +120,11 @@ align-content: space-between;
 .events {
   align-items: center;
   display: flex;
-  flex-direction:row;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   width: 300px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 60%;
   
 }
 
@@ -127,11 +138,13 @@ align-self:center ;
    margin: 10px; 
   font-size: x-small;
   padding: 19px;
+}
 
 
+.upcoming-icon {
+ padding: 15px;
+gap: 20px;
 
- 
- 
 }
 .event2 {
   width: 50%;
@@ -152,7 +165,12 @@ align-self:center ;
 
 .up-coming {
 
-  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  /* margin-left: auto;
+  text-align:right; */
+
   background-color: rgb(134, 172, 203);
 }
 .last-content {

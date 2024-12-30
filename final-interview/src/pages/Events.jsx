@@ -1,12 +1,15 @@
-
+import { GoDash } from "react-icons/go";
+import { BsArrowsMove } from "react-icons/bs";
+import { BsArrowsFullscreen } from "react-icons/bs";
 function Events (prop) {
 
     return (
       <>
    <div className="events">
-    <h1>{ prop.name} { prop.icon} { prop.icon1} { prop.icon2}</h1>
+    <h1>{ prop.name} </h1>
    
    </div>
+   <div className="upcoming-icon"> < GoDash/> <BsArrowsMove /> < BsArrowsFullscreen/> </div>
    </>
     )
   }

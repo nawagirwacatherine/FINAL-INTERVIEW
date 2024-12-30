@@ -10,9 +10,6 @@ import { IoTriangleOutline } from "react-icons/io5";
  import { FaRegMoneyBill1 } from "react-icons/fa6";
  import { AiOutlineFile } from "react-icons/ai";
 
- import { GoDash } from "react-icons/go";
-import { BsArrowsMove } from "react-icons/bs";
-import { BsArrowsFullscreen } from "react-icons/bs";
 
 function Content () {
 
@@ -28,7 +25,7 @@ function Content () {
   <div className="event1">
     <div className="event2">
       <div className="up-coming">
-       <Events  name="Upcoming Events" icon={<GoDash />} icon1={< BsArrowsMove/>} icon2={<BsArrowsFullscreen/>}/>
+       <Events  name="Upcoming Events"/>
         </div>
 
         <div className="last-content">
@@ -38,7 +35,7 @@ function Content () {
      </div>
        <div  className="event3">
         <div className="up-coming">
-         <Events  name="Running Projects"  icon={<GoDash />} icon1={< BsArrowsMove/>} icon2={<BsArrowsFullscreen/>}/>
+         <Events  name="Running Projects"/>
      </div>
        <div>
         <div className="last-content">
