@@ -4,8 +4,6 @@ import Events from "./Events.jsx"
 import  MarketingPolicy from "./MarketingPolicy.jsx"
 
 import { FiUserPlus } from "react-icons/fi";
-
-import { IoTriangleOutline } from "react-icons/io5";
  import {GiLabradorHead } from "react-icons/gi";
  import { FaRegMoneyBill1 } from "react-icons/fa6";
  import { AiOutlineFile } from "react-icons/ai";
@@ -17,10 +15,10 @@ function Content () {
     
    <div className="content">
     <div className="client1">
-    <Clients name="Active Client" icon={< FiUserPlus/>} description="4"icon1={< IoTriangleOutline/>}  />
-     <Clients name="Active Admin" icon={< GiLabradorHead />} icon1={< IoTriangleOutline/>}   />
-     <Clients name="Total expenses" icon={< FaRegMoneyBill1 />} icon1={< IoTriangleOutline/>}  />
-     <Clients name="Running Projects" icon={< AiOutlineFile/>} icon1={< IoTriangleOutline/>}   />
+    <Clients name="Active Client" icon={< FiUserPlus/>}  number="11"/>
+     <Clients name="Active Admin" icon={< GiLabradorHead />} number="4"/>
+     <Clients name="Total expenses" icon={< FaRegMoneyBill1 />} number="965"/>
+     <Clients name="Running Projects" icon={< AiOutlineFile/>} number="11"/>
      </div>
   <div className="event1">
     <div className="event2">

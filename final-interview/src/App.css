@@ -15,8 +15,8 @@
 
    height: 850px;
    width: 1000px; 
-font-size: smaller;
-  background-color: rgb(168, 179, 197);
+   font-size: smaller;
+  background-color: rgb(189, 195, 205);
 }
 
 .side-bar {
@@ -99,6 +99,7 @@ text-align:right;
 }
 
 .clients {
+  display: flex;
 align-content: space-between;
   margin: 1rem;
   padding: 19px;
@@ -118,11 +119,10 @@ align-content: space-between;
   
 
 }
+.triangle {
+ color:white ;
+}
 
-/* 
-.content {
-  color: black;
-} */
 .events {
   align-items: center;
   display: flex;
@@ -158,7 +158,6 @@ gap: 10px;
   width: 50%;
   align-self: flex-start;
   height: 400px;
-  /* padding-right: 5px; */
 
 
 }
@@ -176,11 +175,9 @@ gap: 10px;
   display: flex;
   align-items: center;
   justify-content:space-between ;
-  /* margin-left: auto;
-  text-align:right; */
-
   background-color: rgb(134, 172, 203);
 }
+
 .last-content {
   background-color: rgb(243, 242, 242);;
   height: 400px;
@@ -189,7 +186,6 @@ gap: 10px;
 .date-month {
   color: white;
   align-self: flex-start;
-  /* height: 80px; */
   width: 20px;
   padding: 15px;
   align-self: flex-start;
@@ -209,9 +205,8 @@ align-content: center;
   font-size: xx-small;
 }
 h1{
-  
   display: flex;
-  justify-content: space-between;
+
 }
 
 h3 {
