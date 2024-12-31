@@ -68,10 +68,8 @@ function MarketingPolicy  () {
 
          
          <section style={{display:"flex", flexDirection:"column", alignItems:"center", position:"relative"}}>
-           
-
             <div className="date-month">
-            <div className="date1"><div className="date">3</div><div><h1>Marketing policy</h1></div></div>
+            <div className="date1"><div className="date">3</div><div><h1>Finance policy</h1></div></div>
             <div className="date1"><div className="month"  style={{backgroundColor:"black"}}>JAN</div><div><p>South Australia-Australia</p></div></div>
             </div>
             <button style={{ 
