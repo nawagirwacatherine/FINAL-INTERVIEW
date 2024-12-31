@@ -213,33 +213,33 @@ gap: 10px;
 
 .date-month {
   color: white;
+ margin: 9px;
   align-self: flex-start;
-  width: 20px;
- margin: 8px;
-  align-self: flex-start;
-  border: 1px solid rgb(48, 47, 47);
   width: 7%;
 }
 
 .date {
+  padding: 10px;
   background-color: rgb(206, 209, 209);
   color: black;
   font-size: xx-small;
 align-content: center;
-padding: 10px;
+
 
 }
 
 .date1 {
-  gap: 20px;
+  border: 1px solid rgb(48, 47, 47);
+  gap: 40px;
 }
 
 .month {
+  padding: 7px;
   justify-content: center;
   color: rgb(247, 246, 246);
   background-color: rgb(75, 144, 144);
   font-size: xx-small;
-  padding: 5px;
+ 
 }
 h1{
   display: flex;
