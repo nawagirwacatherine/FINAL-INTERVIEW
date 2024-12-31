@@ -3,12 +3,12 @@ function MarketingPolicy  () {
         <div className="marketing-policy">
         
              <section style={{display:"flex", flexDirection:"column", alignItems:"center", position:"relative"}}>
+
             <div className="date-month">
-            <div className="date">28</div>
-            <div className="month">APR</div>
-            </div> <span><h1>Marketing policy</h1>
-            <p>Green,Road-Dhaka,Bangladesh</p>
-            </span>
+            <div className="date1"><div className="date">28</div><div><h1>Marketing policy</h1></div></div>
+            <div className="date1"><div className="month"  style={{backgroundColor:" rgb(75, 144, 144)"}}>APR</div><div><p>Green,Road-Dhaka,Bangladesh</p></div></div>
+            </div>
+
             <button style={{ 
                 border:"none",
                 position:"absolute",
@@ -27,11 +27,9 @@ function MarketingPolicy  () {
          
          <section style={{display:"flex", flexDirection:"column", alignItems:"center", position:"relative"}}>
             <div className="date-month">
-            <div className="date">2</div>
-            <div className="month">APR</div>
-            </div>  <span><h1>Accounting Policy</h1>
-            <p>kalkata india</p>
-            </span>
+            <div className="date1"><div className="date">2</div><div><h1>Accounting Policy</h1></div></div>
+            <div className="date1"><div className="month"  style={{backgroundColor:" rgb(75, 144, 144)"}}>APR</div><div><p>kalkata india</p></div></div>
+            </div>
             <button style={{ 
                 border:"none",
                 position:"absolute",
@@ -70,12 +68,12 @@ function MarketingPolicy  () {
 
          
          <section style={{display:"flex", flexDirection:"column", alignItems:"center", position:"relative"}}>
+           
+
             <div className="date-month">
-            <div className="date">3</div>
-            <div className="month" style={{backgroundColor:"black"}}>JAN</div>
-            </div> <span><h1>Finance Policy</h1>
-            <p>South Australia-Australia</p>
-            </span>
+            <div className="date1"><div className="date">3</div><div><h1>Marketing policy</h1></div></div>
+            <div className="date1"><div className="month"  style={{backgroundColor:"black"}}>JAN</div><div><p>South Australia-Australia</p></div></div>
+            </div>
             <button style={{ 
                 border:"none",
                 position:"absolute",
