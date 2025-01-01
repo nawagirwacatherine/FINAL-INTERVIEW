@@ -27,8 +27,21 @@ function MarketingPolicy  () {
          
          <section style={{display:"flex", flexDirection:"column", alignItems:"center", position:"relative"}}>
             <div className="date-month">
-            <div className="date1"><div className="date">2</div><div><h1>Accounting Policy</h1></div></div>
-            <div className="date2"><div className="month"  style={{backgroundColor:" rgb(75, 144, 144)"}}>APR</div><div><p>kalkata india</p></div></div>
+                <div className="date-column">
+                    <div className="date">
+                 2
+                    </div>
+
+                    <div className="month"> APR</div>
+
+                </div>
+
+                <div className="text-column">
+                    <h1>Accounting Policy</h1>
+                    <p>Kolkata, India</p>
+
+                </div>
+
             </div>
             <button style={{ 
                 border:"none",
