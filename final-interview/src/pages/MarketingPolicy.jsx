@@ -6,7 +6,7 @@ function MarketingPolicy  () {
 
             <div className="date-month">
             <div className="date1"><div className="date">28</div><div><h1>Marketing policy</h1></div></div>
-            <div className="date1"><div className="month"  style={{backgroundColor:" rgb(75, 144, 144)"}}>APR</div><div><p>Green,Road-Dhaka,Bangladesh</p></div></div>
+            <div className="date2"><div className="month"  style={{backgroundColor:" rgb(75, 144, 144)"}}>APR</div><div><p>Green,Road-Dhaka,Bangladesh</p></div></div>
             </div>
 
             <button style={{ 
@@ -28,7 +28,7 @@ function MarketingPolicy  () {
          <section style={{display:"flex", flexDirection:"column", alignItems:"center", position:"relative"}}>
             <div className="date-month">
             <div className="date1"><div className="date">2</div><div><h1>Accounting Policy</h1></div></div>
-            <div className="date1"><div className="month"  style={{backgroundColor:" rgb(75, 144, 144)"}}>APR</div><div><p>kalkata india</p></div></div>
+            <div className="date2"><div className="month"  style={{backgroundColor:" rgb(75, 144, 144)"}}>APR</div><div><p>kalkata india</p></div></div>
             </div>
             <button style={{ 
                 border:"none",
@@ -49,7 +49,7 @@ function MarketingPolicy  () {
          <section style={{display:"flex", flexDirection:"column", alignItems:"center", position:"relative"}}>
             <div className="date-month">
             <div className="date1"><div className="date">17</div><div><h1>Marketing policy</h1></div></div>
-            <div className="date1"><div className="month"  style={{backgroundColor:"black"}}>MRC</div><div><p>Madrid-Spain</p></div></div>
+            <div className="date2"><div className="month"  style={{backgroundColor:"black"}}>MRC</div><div><p>Madrid-Spain</p></div></div>
             </div>
             <button style={{ 
                 border:"none",
@@ -70,7 +70,7 @@ function MarketingPolicy  () {
          <section style={{display:"flex", flexDirection:"column", alignItems:"center", position:"relative"}}>
             <div className="date-month">
             <div className="date1"><div className="date">3</div><div><h1>Finance policy</h1></div></div>
-            <div className="date1"><div className="month"  style={{backgroundColor:"black"}}>JAN</div><div><p>South Australia-Australia</p></div></div>
+            <div className="date2"><div className="month"  style={{backgroundColor:"black"}}>JAN</div><div><p>South Australia-Australia</p></div></div>
             </div>
             <button style={{ 
                 border:"none",

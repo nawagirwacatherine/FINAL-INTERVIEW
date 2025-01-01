@@ -195,7 +195,10 @@ gap: 10px;
 
 .date1 {
   display: flex;
+  align-items: center;
   color: black;
+  overflow: hidden;
+  flex: 1;
 }
 
 .up-coming {
@@ -212,29 +215,44 @@ gap: 10px;
 }
 
 .date-month {
+  padding: 20px;
   color: white;
- margin: 9px;
-  align-self: flex-start;
-  width: 7%;
+ margin: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
 }
 
 .date {
-  padding: 10px;
+  width: 7px;
+  border: 1px solid rgb(58, 57, 57);
   background-color: rgb(206, 209, 209);
   color: black;
   font-size: xx-small;
-align-content: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  
+
 
 
 }
 
-.date1 {
-  border: 1px solid rgb(48, 47, 47);
-  gap: 40px;
+.date2 {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  flex: 1;
+  color: black;
+
 }
 
 .month {
-  padding: 7px;
+  width: 7px;
+  border: 1px solid rgb(58, 57, 57);
   justify-content: center;
   color: rgb(247, 246, 246);
   background-color: rgb(75, 144, 144);
