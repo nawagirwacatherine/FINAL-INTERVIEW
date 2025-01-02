@@ -10,7 +10,7 @@ function MarketingPolicy  () {
                  28
                     </div>
 
-                    <div className="month"> APR</div>
+                    <div className="month" style={{ backgroundColor:"rgb(153, 205, 205)", }}> APR</div>
 
                 </div>
 
@@ -45,7 +45,7 @@ function MarketingPolicy  () {
                  2
                     </div>
 
-                    <div className="month"> APR</div>
+                    <div className="month" style={{ backgroundColor:"rgb(153, 205, 205)", }}> APR</div>
 
                 </div>
 
@@ -79,7 +79,7 @@ function MarketingPolicy  () {
                  17
                     </div>
 
-                    <div className="month"> MRC</div>
+                    <div className="month" > MRC</div>
 
                 </div>
 

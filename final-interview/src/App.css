@@ -6,8 +6,6 @@
 }
 
 .app {
-  padding: 5px;
-  height: 100%;
   display: flex;
 }
 
@@ -74,10 +72,9 @@ text-align:right;
 }
 
 .icon1 {
-  display: flex;
-
-  padding: 10px;
- gap: 10px;
+display: flex;
+padding: 10px;
+gap: 10px;
 }
 
 .icon2 {
@@ -106,7 +103,7 @@ font-size: xx-large;
 .content {
   
   color: azure;
-  padding: 5px;
+  padding: 3px;
 }
 
 .clients {
@@ -171,9 +168,8 @@ align-self:center ;
 
 
 .upcoming-icon {
-  display: flex;
-
- padding: 15px;
+display: flex;
+padding: 15px;
 gap: 10px;
 
 }
@@ -207,11 +203,11 @@ gap: 10px;
 }
 
 .date-month {
- 
+ width: 20px;
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  gap: 1px;
+  gap: 4px;
   align-items: center;
   align-self: self-start;
 
@@ -231,10 +227,9 @@ gap: 10px;
 }
 
 .month {
-  background-color: rgb(89, 148, 156);
+  background-color: rgb(51, 50, 50);
   color: azure;
   padding: 5px ;
-  ;
   font-weight: bold;
 }
 
@@ -242,6 +237,8 @@ gap: 10px;
   
   padding: 10px;
 }
+
+
 
 
 h1{
